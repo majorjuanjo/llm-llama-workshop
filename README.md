@@ -1,8 +1,12 @@
 ---
-description: Hub oficial en español para construir tu propia infraestructura de IA con Llama de Meta AI
-cover: .gitbook/assets/cover-workshop-llama.png
+description: >-
+  Hub oficial en español para construir tu propia infraestructura de IA con
+  Llama de Meta AI
+cover: >-
+  https://images.unsplash.com/photo-1504814532849-cff240bbc503?crop=entropy&cs=srgb&fm=jpg&ixid=M3wxOTcwMjR8MHwxfHNlYXJjaHw5fHxtZXhpY298ZW58MHx8fHwxNzYyNzUwNTAwfDA&ixlib=rb-4.1.0&q=85
 coverY: 0
 layout:
+  width: default
   cover:
     visible: true
     size: hero
@@ -16,17 +20,21 @@ layout:
     visible: true
   pagination:
     visible: true
+  metadata:
+    visible: true
 ---
 
 # 🦙 Workshop: Build Your Own AI Stack con Llama
 
-## Soberanía Digital Práctica para PyMEs de LATAM
+## 🦙 Workshop: Build Your Own AI Stack con Llama
+
+### Soberanía Digital Práctica para PyMEs de LATAM
 
 <figure><img src=".gitbook/assets/hero-workshop-banner.png" alt=""><figcaption><p>De Silicon Valley a tu empresa: construye inteligencia artificial local sin costos recurrentes ni dependencia tecnológica</p></figcaption></figure>
 
 ***
 
-## 🎯 Lo que construirás en este workshop
+### 🎯 Lo que construirás en este workshop
 
 En **225 minutos distribuidos** (1 sesión presencial + 3 virtuales), pasarás de tener **cero infraestructura de IA** a tener **un agente funcional respondiendo consultas 24/7** sobre tu negocio.
 
@@ -34,7 +42,7 @@ En **225 minutos distribuidos** (1 sesión presencial + 3 virtuales), pasarás d
 
 ***
 
-## 🤝 Organizadores oficiales
+### 🤝 Organizadores oficiales
 
 Este workshop es el resultado de una alianza estratégica entre instituciones líderes en innovación tecnológica:
 
@@ -42,13 +50,9 @@ Este workshop es el resultado de una alianza estratégica entre instituciones l�
 
 ***
 
-## 👨‍🏫 Facilitador
+### 👨‍🏫 Facilitador
 
-<div align="left">
-
-<figure><img src=".gitbook/assets/juanjo-profile.png" alt="" width="150"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src=".gitbook/assets/juanjo-profile.png" alt="" width="150"><figcaption></figcaption></figure></div>
 
 **Juan José Domínguez Ochoa (Juanjo)**\
 Founder de AK7 (Amplifik AI) | Creador de ÉKOO + VÚNKRS
@@ -64,7 +68,7 @@ Founder de AK7 (Amplifik AI) | Creador de ÉKOO + VÚNKRS
 
 ***
 
-## 🎓 ¿Para quién es este workshop?
+### 🎓 ¿Para quién es este workshop?
 
 Este programa está diseñado para **4 perfiles específicos** con diferentes niveles técnicos pero el mismo objetivo: **construir capacidad de IA sin depender de terceros.**
 
@@ -84,11 +88,11 @@ Este programa está diseñado para **4 perfiles específicos** con diferentes ni
 
 ***
 
-## ✅ Entregables verificables
+### ✅ Entregables verificables
 
 Al finalizar las 4 sesiones, tendrás en tu poder:
 
-### 🎯 **Activos técnicos**
+#### 🎯 **Activos técnicos**
 
 * [ ] **Agente de IA funcionando** instalado en tu infraestructura (local o cloud)
 * [ ] **Repositorio de código completo** documentado y reutilizable para otros casos
@@ -96,7 +100,7 @@ Al finalizar las 4 sesiones, tendrás en tu poder:
 * [ ] **Dashboard de métricas** configurado para monitorear desempeño y costos
 * [ ] **Scripts de deployment** para producción con guías de troubleshooting
 
-### 📊 **Activos estratégicos**
+#### 📊 **Activos estratégicos**
 
 * [ ] **Canvas de Agente completado** con tu caso de uso específico validado
 * [ ] **Matriz de decisión** para determinar cuándo usar RAG vs prompting simple
@@ -104,7 +108,7 @@ Al finalizar las 4 sesiones, tendrás en tu poder:
 * [ ] **Checklist de compliance** con NOMs mexicanas aplicables (NOM-035, NOM-037)
 * [ ] **Calculadora de TCO** (Total Cost of Ownership) para comparar vs soluciones comerciales
 
-### 🤝 **Activos comunitarios**
+#### 🤝 **Activos comunitarios**
 
 * [ ] **Acceso permanente** a comunidad de founders implementando Llama en LATAM
 * [ ] **Office hours mensuales** con Juanjo y equipo AK7 (primeros 90 días)
@@ -119,9 +123,9 @@ Al finalizar, **85% de participantes** tienen un agente respondiendo correctamen
 
 ***
 
-## 🧩 La paradoja de adopción en LATAM
+### 🧩 La paradoja de adopción en LATAM
 
-### El problema que nadie menciona
+#### El problema que nadie menciona
 
 Llama está **disponible globalmente** desde julio 2023. El código es open source, la licencia es permisiva, Meta lo promociona activamente. Cualquier PyME en México puede descargarlo gratis ahora mismo.
 
@@ -144,7 +148,7 @@ graph TD
     style F fill:#51cf66
 ```
 
-### Los 7 componentes ausentes en LATAM
+#### Los 7 componentes ausentes en LATAM
 
 <table><thead><tr><th width="50"></th><th width="250">Componente faltante</th><th>Consecuencia práctica</th></tr></thead><tbody><tr><td>1️⃣</td><td><strong>Documentación en español contextualizado</strong></td><td>La documentación oficial está en inglés técnico asumiendo infraestructura de Silicon Valley (AWS, Kubernetes, etc). Conceptos como "quantization" no tienen traducción estándar.</td></tr><tr><td>2️⃣</td><td><strong>Casos de uso locales</strong></td><td>Ejemplos de startups SF no aplican a PyME manufacturera de Querétaro. "Build a chatbot for SaaS" no ayuda a taller mecánico.</td></tr><tr><td>3️⃣</td><td><strong>Guías para no-técnicos</strong></td><td>Toda la documentación asume experiencia previa en ML/DevOps. Si no sabes qué es un "token" o "embedding", estás perdido desde el inicio.</td></tr><tr><td>4️⃣</td><td><strong>Comunidad hispanohablante activa</strong></td><td>Foros de Meta AI en inglés, horarios PST. Cuando tienes un error a las 11pm hora CDMX, no hay nadie disponible en tu idioma.</td></tr><tr><td>5️⃣</td><td><strong>Glosario estandarizado</strong></td><td>Cada tutorial traduce términos técnicos diferente. "Fine-tuning" es "ajuste fino", "afinado", "entrenamiento específico". Confusión = abandono.</td></tr><tr><td>6️⃣</td><td><strong>Talleres presenciales con seguimiento</strong></td><td>Videos de YouTube no remplazan mentoría continua. Ver código funcionar en pantalla ≠ hacerlo funcionar en tu laptop.</td></tr><tr><td>7️⃣</td><td><strong>Puentes institucionales</strong></td><td>Sin validación del Tec de Monterrey o gobierno, adopción es incierta para tomadores de decisión corporativos. "¿Esto es serio o un experimento?"</td></tr></tbody></table>
 
@@ -159,7 +163,7 @@ Es como tener el **plano de una casa gratis**, pero:\
 **Técnicamente "puedes construir"** pero **prácticamente no sucede.**
 {% endhint %}
 
-### La solución: Construir el ecosistema completo
+#### La solución: Construir el ecosistema completo
 
 Este workshop no solo enseña Llama. **Construye los 7 componentes faltantes:**
 
@@ -175,7 +179,7 @@ Este workshop no solo enseña Llama. **Construye los 7 componentes faltantes:**
 
 ***
 
-## 🎓 Metodología: Progresión Inversa™
+### 🎓 Metodología: Progresión Inversa™
 
 La mayoría de talleres técnicos siguen este flujo tradicional (y problemático):
 
@@ -197,11 +201,11 @@ Ventaja: Motivación clara ANTES de fricción técnica
 Resultado: 85% de completación total del programa
 ```
 
-### Cómo funciona sesión por sesión
+#### Cómo funciona sesión por sesión
 
 <table><thead><tr><th width="180">Sesión</th><th width="250">Pregunta que responde</th><th>Output concreto</th></tr></thead><tbody><tr><td><strong>Sesión 1</strong><br>Estrategia</td><td>"¿Qué problema específico de mi negocio resolveré con IA?"</td><td>Canvas de Agente completado con:<br>• Problema definido<br>• Usuario final identificado<br>• Métricas de éxito claras<br>• Primer prompt estructurado</td></tr><tr><td><strong>Sesión 2</strong><br>Instalación</td><td>"¿Cómo hago que Llama funcione en MI laptop con MI caso?"</td><td>• Llama instalado y corriendo<br>• Agente respondiendo a 3 prompts<br>• Decisión local vs cloud tomada</td></tr><tr><td><strong>Sesión 3</strong><br>Personalización</td><td>"¿Cómo conecto el agente a MIS documentos y datos?"</td><td>• RAG implementado con tus docs<br>• Agente respondiendo con contexto<br>• Checklist NOMs cumplido</td></tr><tr><td><strong>Sesión 4</strong><br>Producción</td><td>"¿Cómo paso de prototipo a sistema en uso real?"</td><td>• Sistema desplegado 24/7<br>• Dashboard de métricas activo<br>• Plan 30-60-90 días definido</td></tr></tbody></table>
 
-### El "gancho" entre sesiones
+#### El "gancho" entre sesiones
 
 Cada sesión termina con una **tensión específica** que la siguiente resuelve:
 
@@ -222,25 +226,31 @@ Este **momentum natural** reduce abandono y mantiene compromiso entre sesiones.
 
 ***
 
-## 💻 Requisitos técnicos
+### 💻 Requisitos técnicos
 
-### Hardware mínimo por escenario
+#### Hardware mínimo por escenario
 
-<table><thead><tr><th width="180">Componente</th><th>Mínimo<br>(Funciona pero lento)</th><th>Recomendado<br>(Experiencia óptima)</th><th>Ideal<br>(Sin limitaciones)</th></tr></thead><tbody><tr><td><strong>RAM</strong></td><td>8 GB<br><em>Modelos pequeños</em></td><td>16 GB<br><em>Modelos medianos</em></td><td>32 GB+<br><em>Modelos grandes</em></td></tr><tr><td><strong>CPU</strong></td><td>Intel i5 / Ryzen 5<br><em>4 núcleos</em></td><td>Intel i7 / Ryzen 7<br><em>8 núcleos</em></td><td>Intel i9 / Ryzen 9<br><em>12+ núcleos</em></td></tr><tr><td><strong>GPU</strong></td><td>No requerida<br><em>CPU inference</em></td><td>NVIDIA GTX 1660+<br><em>6GB VRAM</em></td><td>NVIDIA RTX 4090<br><em>24GB VRAM</em></td></tr><tr><td><strong>Almacenamiento</strong></td><td>20 GB libres<br><em>1 modelo</em></td><td>50 GB libres<br><em>3-5 modelos</em></td><td>100 GB+ libres<br><em>Biblioteca completa</em></td></tr><tr><td><strong>Sistema Operativo</strong></td><td>Windows 10<br>macOS 10.15<br>Ubuntu 20.04</td><td>Windows 11<br>macOS 12+<br>Ubuntu 22.04</td><td>Cualquiera actualizado<br>+ Docker instalado</td></tr></tbody></table>
+| Componente            | <p>Mínimo<br>(Funciona pero lento)</p>           | <p>Recomendado<br>(Experiencia óptima)</p>      | <p>Ideal<br>(Sin limitaciones)</p>                    |
+| --------------------- | ------------------------------------------------ | ----------------------------------------------- | ----------------------------------------------------- |
+| **RAM**               | <p>8 GB<br><em>Modelos pequeños</em></p>         | <p>16 GB<br><em>Modelos medianos</em></p>       | <p>32 GB+<br><em>Modelos grandes</em></p>             |
+| **CPU**               | <p>Intel i5 / Ryzen 5<br><em>4 núcleos</em></p>  | <p>Intel i7 / Ryzen 7<br><em>8 núcleos</em></p> | <p>Intel i9 / Ryzen 9<br><em>12+ núcleos</em></p>     |
+| **GPU**               | <p>No requerida<br><em>CPU inference</em></p>    | <p>NVIDIA GTX 1660+<br><em>6GB VRAM</em></p>    | <p>NVIDIA RTX 4090<br><em>24GB VRAM</em></p>          |
+| **Almacenamiento**    | <p>20 GB libres<br><em>1 modelo</em></p>         | <p>50 GB libres<br><em>3-5 modelos</em></p>     | <p>100 GB+ libres<br><em>Biblioteca completa</em></p> |
+| **Sistema Operativo** | <p>Windows 10<br>macOS 10.15<br>Ubuntu 20.04</p> | <p>Windows 11<br>macOS 12+<br>Ubuntu 22.04</p>  | <p>Cualquiera actualizado<br>+ Docker instalado</p>   |
 
 {% hint style="warning" %}
 **Si tu laptop no cumple mínimos:**\
 No te preocupes. En Sesión 2 configuraremos opciones cloud **gratuitas** (Google Colab, AWS Free Tier) que funcionan perfectamente. **No dejes que hardware te detenga.**
 {% endhint %}
 
-### Conocimientos previos por perfil
+#### Conocimientos previos por perfil
 
-| Perfil                | Conocimiento mínimo requerido                         | Recomendado tener              |
-| --------------------- | ----------------------------------------------------- | ------------------------------ |
-| **No-técnico**        | • Usar navegador web<br>• Copiar/pegar texto          | • Excel básico<br>• Google Docs |
-| **Low-code**          | • Zapier o Make.com<br>• Nociones de APIs             | • JSON básico<br>• Postman      |
-| **Dev Jr**            | • Python básico<br>• Terminal/command line            | • Git<br>• Virtual environments |
-| **Líder corporativo** | • Leer documentación técnica<br>• Evaluar proveedores | • Conceptos de cloud<br>• APIs  |
+| Perfil                | Conocimiento mínimo requerido                                | Recomendado tener                      |
+| --------------------- | ------------------------------------------------------------ | -------------------------------------- |
+| **No-técnico**        | <p>• Usar navegador web<br>• Copiar/pegar texto</p>          | <p>• Excel básico<br>• Google Docs</p> |
+| **Low-code**          | <p>• Zapier o Make.com<br>• Nociones de APIs</p>             | <p>• JSON básico<br>• Postman</p>      |
+| **Dev Jr**            | <p>• Python básico<br>• Terminal/command line</p>            | <p>• Git<br>• Virtual environments</p> |
+| **Líder corporativo** | <p>• Leer documentación técnica<br>• Evaluar proveedores</p> | <p>• Conceptos de cloud<br>• APIs</p>  |
 
 {% hint style="success" %}
 **Pre-work obligatorio (30 minutos):**
@@ -248,7 +258,7 @@ No te preocupes. En Sesión 2 configuraremos opciones cloud **gratuitas** (Googl
 72 horas antes de Sesión 2, recibirás un **checklist de instalación** para maximizar tiempo de práctica en vivo. Si algo falla, office hours previos resolverán bloqueos antes de la sesión.
 {% endhint %}
 
-### Materiales de tu negocio
+#### Materiales de tu negocio
 
 Para aprovechar al máximo el workshop, prepara estos documentos:
 
@@ -261,14 +271,14 @@ No pasa nada. En Sesión 1 te enseñamos a extraer conocimiento de conversacione
 
 ***
 
-## 🗓️ Información logística
+### 🗓️ Información logística
 
-### Sesión 1: Presencial (Evento fundacional)
+#### Sesión 1: Presencial (Evento fundacional)
 
 **📅 Fecha:** 24 de octubre de 2025\
-**⏰ Horario:** 10:00 - 10:45 hrs (45 minutos)\
+&#xNAN;**⏰ Horario:** 10:00 - 10:45 hrs (45 minutos)\
 **📍 Ubicación:** Tec de Monterrey Campus Ciudad de México\
-**👥 Audiencia:** ~400 personas (founders, líderes innovación, consultores)
+**👥 Audiencia:** \~400 personas (founders, líderes innovación, consultores)
 
 **Formato:**
 
@@ -278,10 +288,10 @@ No pasa nada. En Sesión 1 te enseñamos a extraer conocimiento de conversacione
 * QR codes para recursos descargables
 * Networking post-sesión (opcional, 30 min)
 
-### Sesiones 2-4: Virtuales (Grupos pequeños)
+#### Sesiones 2-4: Virtuales (Grupos pequeños)
 
 **📅 Fechas:** Por definir según disponibilidad de grupos\
-**⏰ Duración:** 60 minutos por sesión\
+&#xNAN;**⏰ Duración:** 60 minutos por sesión\
 **👥 Audiencia:** Grupos de 20-30 personas máximo\
 **🔗 Plataforma:** Zoom con breakout rooms para ejercicios
 
@@ -291,7 +301,7 @@ No pasa nada. En Sesión 1 te enseñamos a extraer conocimiento de conversacione
 * 15 min: Ejercicio práctico con soporte
 * 5 min: Q\&A + trabajo asincrónico explicado
 
-### Trabajo asincrónico entre sesiones
+#### Trabajo asincrónico entre sesiones
 
 <table><thead><tr><th width="150">Entre sesiones</th><th width="200">Trabajo requerido</th><th>Tiempo estimado</th></tr></thead><tbody><tr><td><strong>S1 → S2</strong></td><td>• Completar Canvas de Agente<br>• Iterar 3 versiones de prompt<br>• Ver tutorial instalación (10 min)</td><td>2-3 horas</td></tr><tr><td><strong>S2 → S3</strong></td><td>• Construir agente básico funcionando<br>• Recopilar 20-50 documentos<br>• Challenge semanal (opcional)</td><td>3-4 horas</td></tr><tr><td><strong>S3 → S4</strong></td><td>• Implementar RAG con tus datos<br>• Probar 10 consultas reales<br>• Documentar casos de éxito/falla</td><td>2-3 horas</td></tr><tr><td><strong>Post-S4</strong></td><td>• Desplegar a producción<br>• Implementar plan 30 días<br>• Reportar métricas en comunidad</td><td>Continuo</td></tr></tbody></table>
 
@@ -302,15 +312,15 @@ Cada semana hay 2 sesiones de 1 hora para resolver bloqueos individuales. No est
 
 ***
 
-## 🚀 Siguientes pasos
+### 🚀 Siguientes pasos
 
-### Si todavía no te has inscrito
+#### Si todavía no te has inscrito
 
 1. **Registra tu asistencia** al evento del 24 de octubre → \[Link a formulario incMTY]
 2. **Únete a la comunidad Discord** para recibir actualizaciones → \[Link a servidor]
 3. **Descarga el pre-work opcional** (Canvas en blanco + guía) → \[Link a recursos]
 
-### Si ya estás inscrito
+#### Si ya estás inscrito
 
 1. **Completa la encuesta de perfil** para personalizar tu experiencia → \[Link a formulario]
 2. **Revisa el checklist de hardware** y solicita alternativa cloud si aplica → \[Link a checklist]
@@ -318,7 +328,7 @@ Cada semana hay 2 sesiones de 1 hora para resolver bloqueos individuales. No est
 
 ***
 
-## 📚 Estructura de navegación de este GitBook
+### 📚 Estructura de navegación de este GitBook
 
 Este sitio está organizado en **8 secciones principales** para que encuentres lo que necesitas según tu momento en el journey:
 
@@ -326,14 +336,14 @@ Este sitio está organizado en **8 secciones principales** para que encuentres l
 
 ***
 
-## 🤝 Compromiso de este programa
+### 🤝 Compromiso de este programa
 
 Este workshop no es un curso más de IA. Es la **construcción de infraestructura permanente** para adopción de tecnología open source en LATAM.
 
 **Nuestro compromiso contigo:**
 
-✅ **Contenido actualizado:** Cada vez que Meta lance una nueva versión de Llama, este GitBook se actualiza en \<48 horas\
-✅ **Comunidad activa:** Office hours mensuales + Discord con respuestas \<24 horas\
+✅ **Contenido actualizado:** Cada vez que Meta lance una nueva versión de Llama, este GitBook se actualiza en <48 horas\
+✅ **Comunidad activa:** Office hours mensuales + Discord con respuestas <24 horas\
 ✅ **Sin obsolescencia:** Los principios que enseñamos son agnósticos de versión específica\
 ✅ **Código funcional:** Cada ejemplo ha sido probado en producción por AK7 o participantes anteriores\
 ✅ **Transparencia total:** Si algo no funciona, lo documentamos abiertamente con workarounds
@@ -347,12 +357,12 @@ Este workshop no es un curso más de IA. Es la **construcción de infraestructur
 
 ***
 
-## 📞 Canales de contacto
+### 📞 Canales de contacto
 
 **Para consultas del programa:**\
 📧 Email: [workshop-llama@incmty.org](mailto:workshop-llama@incmty.org)\
 💬 Discord: \[Link a servidor privado]\
-🐦 Twitter/X: [@AK7\_AI](https://twitter.com/AK7\_AI) | [@incmty](https://twitter.com/incmty)
+🐦 Twitter/X: [@AK7\_AI](https://twitter.com/AK7_AI) | [@incmty](https://twitter.com/incmty)
 
 **Para soporte técnico:**\
 Durante el programa, utiliza el canal #tech-support en Discord para troubleshooting en tiempo real.
@@ -362,7 +372,7 @@ Durante el programa, utiliza el canal #tech-support en Discord para troubleshoot
 
 ***
 
-## 🎯 Comienza aquí
+### 🎯 Comienza aquí
 
 {% content-ref url="sesion-1-estrategia/" %}
 [sesion-1-estrategia](sesion-1-estrategia/)
@@ -409,60 +419,60 @@ Meta's Llama se distribuye bajo su propia licencia. Consulta los términos ofici
 
 <figure><img src=".gitbook/assets/footer-sponsors.png" alt=""><figcaption><p>Hecho posible por la alianza incMTY + Meta AI + Secretaría de Economía + AK7</p></figcaption></figure>
 
+### <--- title: Prompts ejemplares · Formato CSCC publish: true
 
-<---
-title: Prompts ejemplares · Formato CSCC
-publish: true
----
+## Prompts ejemplares (CSCC)
 
-# Prompts ejemplares (CSCC)
-
-> **CSCC** = Configuración · Solicitud · Contexto · Criterios  
+> **CSCC** = Configuración · Solicitud · Contexto · Criterios\
 > Añade un ejemplo de salida en el mismo prompt cuando sea posible.
 
-## 1) Despacho contable — Soporte recurrente
-**Configuración**: Eres un asistente para un despacho contable en México. Respondes en español claro y accionable.  
-**Solicitud**: Devuelve 5 bullets con: qué aplica, pasos, documentos, riesgos y cuándo escalar.  
-**Contexto**: Usa FAQs internas, calendario fiscal y plantillas de correo (RAG).  
+### 1) Despacho contable — Soporte recurrente
+
+**Configuración**: Eres un asistente para un despacho contable en México. Respondes en español claro y accionable.\
+**Solicitud**: Devuelve 5 bullets con: qué aplica, pasos, documentos, riesgos y cuándo escalar.\
+**Contexto**: Usa FAQs internas, calendario fiscal y plantillas de correo (RAG).\
 **Criterios**: Cita el archivo y sección de donde tomaste cada afirmación. Si no hay evidencia, di explícitamente que falta.
 
-**Ejemplo de salida**  
-- Qué aplica: … (Fuente: )  
-- Pasos: … (Fuente: )  
-- Documentos: …  
-- Riesgos: …  
-- Escalar cuando: …
+**Ejemplo de salida**
 
----
+* Qué aplica: … (Fuente: )
+* Pasos: … (Fuente: )
+* Documentos: …
+* Riesgos: …
+* Escalar cuando: …
 
-## 2) Retail e-commerce — Políticas de cambios
-**Configuración**: Asistente de atención al cliente para tienda en línea en LATAM.  
-**Solicitud**: Responde en 5 bullets con solución concreta y próxima acción.  
-**Contexto**: Políticas de cambios, catálogo y estado de envío.  
+***
+
+### 2) Retail e-commerce — Políticas de cambios
+
+**Configuración**: Asistente de atención al cliente para tienda en línea en LATAM.\
+**Solicitud**: Responde en 5 bullets con solución concreta y próxima acción.\
+**Contexto**: Políticas de cambios, catálogo y estado de envío.\
 **Criterios**: No inventar información; si falta dato de pedido, pedirlo en una sola pregunta.
 
----
+***
 
-## 3) SOP express — Documentación de procesos
-**Configuración**: Documentador de SOPs corporativos.  
-**Solicitud**: Genera un procedimiento en 7 pasos con responsables, insumos y checklist de verificación.  
-**Contexto**: Descripción actual del proceso y plantillas.  
+### 3) SOP express — Documentación de procesos
+
+**Configuración**: Documentador de SOPs corporativos.\
+**Solicitud**: Genera un procedimiento en 7 pasos con responsables, insumos y checklist de verificación.\
+**Contexto**: Descripción actual del proceso y plantillas.\
 **Criterios**: Entregar en Markdown copiable; añadir riesgos y control de cambios.
 
----
+***
 
-## 4) Procurement — Comparador de cotizaciones
-**Configuración**: Analista de compras.  
-**Solicitud**: Normaliza tres cotizaciones y entrega tabla con proveedor, precio, tiempos, garantía y TCO.  
-**Contexto**: PDFs de cotización y lista de requisitos.  
+### 4) Procurement — Comparador de cotizaciones
+
+**Configuración**: Analista de compras.\
+**Solicitud**: Normaliza tres cotizaciones y entrega tabla con proveedor, precio, tiempos, garantía y TCO.\
+**Contexto**: PDFs de cotización y lista de requisitos.\
 **Criterios**: Conclusión con recomendación y fundamento.
 
----
+***
 
-## 5) Atención clínica — Información administrativa
-**Configuración**: Asistente administrativo de clínica.  
-**Solicitud**: Confirmar requisitos de cita, costos y preparación.  
-**Contexto**: Políticas vigentes y calendario.  
-**Criterios**: No consejo médico; privacidad reforzada; ofrecer escalamiento a CI Badge -->
-[- content checks](https://github.com/majorjuanjo/llama/actions/workflows/ci.yml/badge.svg)](https://github.com/majorjuanjo/llama/actions/workflows/ci.yml)
+### 5) Atención clínica — Información administrativa
 
+**Configuración**: Asistente administrativo de clínica.\
+**Solicitud**: Confirmar requisitos de cita, costos y preparación.\
+**Contexto**: Políticas vigentes y calendario.\
+**Criterios**: No consejo médico; privacidad reforzada; ofrecer escalamiento a CI Badge --> [- content checks](https://github.com/majorjuanjo/llama/actions/workflows/ci.yml/badge.svg)]\(https://github.com/majorjuanjo/llama/actions/workflows/ci.yml)

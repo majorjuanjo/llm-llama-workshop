@@ -1,0 +1,2 @@
+# 🖥️ Instalación Local (Ollama)
+

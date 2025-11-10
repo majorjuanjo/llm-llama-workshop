@@ -1,0 +1,2 @@
+# ☁️ Alternativa Cloud (AWS Bedrock)
+
