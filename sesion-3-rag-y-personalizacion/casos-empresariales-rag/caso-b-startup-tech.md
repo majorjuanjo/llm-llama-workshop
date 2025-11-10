@@ -1,0 +1,2 @@
+# Caso B: Startup Tech
+

@@ -1,0 +1,2 @@
+# 🚨 Errores Comunes y Soluciones
+

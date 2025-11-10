@@ -1,0 +1,2 @@
+# 📊 Tabla Modelo-Cuantización-Hardware
+
