@@ -408,3 +408,61 @@ Meta's Llama se distribuye bajo su propia licencia. Consulta los términos ofici
 ***
 
 <figure><img src=".gitbook/assets/footer-sponsors.png" alt=""><figcaption><p>Hecho posible por la alianza incMTY + Meta AI + Secretaría de Economía + AK7</p></figcaption></figure>
+
+
+<---
+title: Prompts ejemplares · Formato CSCC
+publish: true
+---
+
+# Prompts ejemplares (CSCC)
+
+> **CSCC** = Configuración · Solicitud · Contexto · Criterios  
+> Añade un ejemplo de salida en el mismo prompt cuando sea posible.
+
+## 1) Despacho contable — Soporte recurrente
+**Configuración**: Eres un asistente para un despacho contable en México. Respondes en español claro y accionable.  
+**Solicitud**: Devuelve 5 bullets con: qué aplica, pasos, documentos, riesgos y cuándo escalar.  
+**Contexto**: Usa FAQs internas, calendario fiscal y plantillas de correo (RAG).  
+**Criterios**: Cita el archivo y sección de donde tomaste cada afirmación. Si no hay evidencia, di explícitamente que falta.
+
+**Ejemplo de salida**  
+- Qué aplica: … (Fuente: )  
+- Pasos: … (Fuente: )  
+- Documentos: …  
+- Riesgos: …  
+- Escalar cuando: …
+
+---
+
+## 2) Retail e-commerce — Políticas de cambios
+**Configuración**: Asistente de atención al cliente para tienda en línea en LATAM.  
+**Solicitud**: Responde en 5 bullets con solución concreta y próxima acción.  
+**Contexto**: Políticas de cambios, catálogo y estado de envío.  
+**Criterios**: No inventar información; si falta dato de pedido, pedirlo en una sola pregunta.
+
+---
+
+## 3) SOP express — Documentación de procesos
+**Configuración**: Documentador de SOPs corporativos.  
+**Solicitud**: Genera un procedimiento en 7 pasos con responsables, insumos y checklist de verificación.  
+**Contexto**: Descripción actual del proceso y plantillas.  
+**Criterios**: Entregar en Markdown copiable; añadir riesgos y control de cambios.
+
+---
+
+## 4) Procurement — Comparador de cotizaciones
+**Configuración**: Analista de compras.  
+**Solicitud**: Normaliza tres cotizaciones y entrega tabla con proveedor, precio, tiempos, garantía y TCO.  
+**Contexto**: PDFs de cotización y lista de requisitos.  
+**Criterios**: Conclusión con recomendación y fundamento.
+
+---
+
+## 5) Atención clínica — Información administrativa
+**Configuración**: Asistente administrativo de clínica.  
+**Solicitud**: Confirmar requisitos de cita, costos y preparación.  
+**Contexto**: Políticas vigentes y calendario.  
+**Criterios**: No consejo médico; privacidad reforzada; ofrecer escalamiento a CI Badge -->
+[- content checks](https://github.com/majorjuanjo/llama/actions/workflows/ci.yml/badge.svg)](https://github.com/majorjuanjo/llama/actions/workflows/ci.yml)
+
